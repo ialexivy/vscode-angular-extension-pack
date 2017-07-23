@@ -1,0 +1,37 @@
+{
+    "name": "angular-extension-pack",
+    "displayName": "Angular Extension Pack",
+    "description": "Essential pack of extensions to develop angular apps using VSCode",
+    "version": "1.0.0",
+    "publisher": "alexiv",
+    "icon": "images/logo.png",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "keywords": [
+        "angular",
+        "angular-cli"
+    ],
+    "bugs": {
+        "url": "https://github.com/qwert789/vscode-angular-extension-pack/issues"
+    },
+    "homepage": "https://github.com/qwert789/vscode-angular-extension-pack",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/qwert789/vscode-angular-extension-pack.git"
+    },
+    "extensionDependencies": [
+        "alexiv.vscode-angular2-files",
+        "Angular.ng-template",
+        "natewallace.angular2-inline",
+        "infinity1207.angular2-switcher",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "christian-kohler.npm-intellisense",
+        "christian-kohler.path-intellisense",
+        "2gua.rainbow-brackets"
+    ]
+}
